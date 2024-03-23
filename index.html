@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoping Card With Checkout JS || Lun Dev</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_check.css" />
+    <script
+      src="https://kit.fontawesome.com/d575fe1d69.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h3>LIST PRODUCTS</h3>
+        <div class="icon">
+          <i class="fa-solid fa-cart-shopping shop"></i>
+          <span class="count">0</span>
+        </div>
+      </header>
+      <ul class="list_products">
+        <!-- <li class="product">
+               <img src="imgs/1.webp" alt="image">
+               <div class="content">
+                <p>Product name 1</p>
+                <span class="price">$50</span>
+               </div>
+               <button class="add">Add Product</button>
+            </li> -->
+      </ul>
+      <ul class="list_page">
+        <!-- <li class="prev">Prev</li>
+            <li class="active">1</li>
+            <li>2</li>
+            <li class="next">Next</li> -->
+      </ul>
+    </div>
+    <div class="shoping_card">
+      <h3>
+        Shoping Card
+        <div class="counter_card">
+          <span>card</span>
+          <span class="card_count">0</span>
+        </div>
+    </h3>
+      <div class="list_shoping">
+        <!-- <div class="item">
+                <div class="info">
+                    <img src="imgs/1.webp" alt="">
+                    <div class="title">Product Name 1</div>
+                    <div class="price">$200</div>
+                </div>
+                <div class="quantity">
+                    <span class="minus">-</span>
+                    <span>2</span>
+                    <span class="plus">+</span>
+                </div>
+            </div> -->
+      </div>
+      <div class="btns">
+        <button class="close">Close</button>
+        <button class="check" title="Go To Chech Page">Check out</button>
+      </div>
+    </div>
+
+    <div class="popup">
+      <div class="container">
+        <div class="list_product_in_card">
+          <h4 class="keep_shoping">KEEP SHOPING</h4>
+          <h3>List Product In Card</h3>
+          <ul class="product_list">
+            <!-- <li class="item">
+                    <img src="imgs/1.webp" alt="">
+                    <div class="product_name">
+                        <div class="title">Product name 1</div>
+                        <span>$150/1 product</span>
+                    </div>
+                    <div class="quantity">1</div>
+                    <div class="price">$250</div>
+                </li> -->
+          </ul>
+        </div>
+        <form action="#">
+          <h3>Checkout</h3>
+          <div class="full_name">
+            <label for="">Full Name</label>
+            <input type="text" />
+          </div>
+          <div class="phone_number">
+            <label for="">Phone Number</label>
+            <input type="number" />
+          </div>
+          <div class="adress">
+            <label for="">Adress</label>
+            <input type="text" />
+          </div>
+          <div class="country_city">
+            <div class="country">
+              <label for="">Country</label>
+              <select>
+                <option value=""></option>
+                <option value="tunisia">Tunisia</option>
+                <option value="egypt">Egypt</option>
+                <option value="france">France</option>
+                <option value="italy">Italy</option>
+                <option value="usa">USA</option>
+              </select>
+            </div>
+            <div class="city">
+              <label for="">City</label>
+              <select>
+                <option value=""></option>
+                <option value="tunisia">Tunisia</option>
+                <option value="egypt">Egypt</option>
+                <option value="france">France</option>
+                <option value="italy">Italy</option>
+                <option value="usa">USA</option>
+              </select>
+            </div>
+          </div>
+          <div class="total_quantity_price">
+            <div class="total_quantity">
+              <span>Total Quantity</span>
+              <span class="all_quantity">5</span>
+            </div>
+            <div class="total_price">
+              <span>Total Price</span>
+              <span class="price_to">$3000</span>
+            </div>
+          </div>
+          <button>CHECKOUT</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
